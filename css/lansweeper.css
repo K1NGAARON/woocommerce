@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+:root {
+    --white: #ffffff;
+    --orange: #FF8A00;
+    --red: #FF5F3D;
+    --dark-grey: #393e46;
+}
+
+* {
+    font-family: Poppins;
+}
+
+/* HEADER */
+#masthead {
+    background-color: var(--dark-grey);
+}
+
+#masthead .site-header-inner {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.primary-navigation li > a,
+.primary-navigation li.current-menu-item > a {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.primary-navigation a:hover {
+    color: var(--orange);
+}
+
+.site-tools .tools-icon:hover .woostify-svg-icon,
+.site-tools .tools-icon .woostify-svg-icon {
+    color: var(--orange);
+}
+
+.shop-cart-count {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+/* BUTTONS */
+.elementor-section .elementor-container .elementor-element .elementor-button,
+.button {
+    background-color: var(--orange);
+    font-weight: 600;   
+}
+
+.elementor-section .elementor-container .elementor-element .elementor-button:hover {
+    background-color: var(--red);
+}
+
+.shop_table .woocommerce-Price-amount {
+    color: var(--orange)!important;
+}
+
+/* FOOTER */
+.site-footer {
+    display: none!important;
+}
+
+#scroll-to-top {
+    background-color: var(--orange)!important;
+}
