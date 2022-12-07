@@ -76,7 +76,8 @@
 
 .single_variation,
 .reset_variations,
-.sku_wrapper {
+.sku_wrapper,
+.woostify-single-product-stock.stock {
     display: none!important;
 }
 
