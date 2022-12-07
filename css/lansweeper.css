@@ -74,6 +74,14 @@
     border: 2px solid var(--orange);
 }
 
+.single_variation,
+.reset_variations,
+.sku_wrapper {
+    display: none!important;
+}
+
+
+
 
 /* CHECKOUT */
 .woocommerce-form-coupon-toggle {
