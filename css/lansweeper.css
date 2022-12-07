@@ -77,18 +77,16 @@
 .single_variation,
 .reset_variations,
 .sku_wrapper,
-.woostify-single-product-stock.stock {
+.woostify-single-product-stock.stock,
+.site-footer,
+.woocommerce-form-coupon-toggle {
     display: none!important;
 }
 
 /* CHECKOUT */
-.woocommerce-form-coupon-toggle {
-    display: none;
-}
-
-/* FOOTER */
-.site-footer {
-    display: none!important;
+.woocommerce-thankyou-order-received {
+    border-color: var(--orange);
+    color: var(--orange);
 }
 
 #scroll-to-top {
