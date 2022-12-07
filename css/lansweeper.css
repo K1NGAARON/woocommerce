@@ -60,6 +60,20 @@
     color: var(--orange)!important;
 }
 
+.single_add_to_cart_button.button:not(.woostify-buy-now),
+.button:hover, .single_add_to_cart_button.button:not(.woostify-buy-now):hover {
+    background-color: var(--orange);
+}
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item) {
+    box-shadow: none!important;
+    border: 1px solid var(--dark-grey);
+}
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected {
+    border: 2px solid var(--orange);
+}
+
 
 /* CHECKOUT */
 .woocommerce-form-coupon-toggle {
