@@ -74,6 +74,10 @@
     border: 2px solid var(--orange);
 }
 
+.woocommerce-tabs .woocommerce-Tabs-panel p:last-child {
+    text-align: center!important;
+}
+
 .single_variation,
 .reset_variations,
 .sku_wrapper,
