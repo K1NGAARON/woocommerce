@@ -9,4 +9,23 @@ function replaceErrorText(e) {
     }
 }
 
-$(document).ready(replaceErrorText);
+
+function accountBalance(e) {
+    const balanceTarget = $('.mycred-my-balance-wrapper div');
+    const html = `
+        <p>
+            Balance: 
+        </p>
+    `;
+
+    console.log(balanceTarget);
+    console.log(html);
+
+    balanceTarget.html(html);
+}
+
+
+$(document).ready(function() {
+    replaceErrorText();
+    accountBalance();
+});

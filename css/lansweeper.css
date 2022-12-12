@@ -5,6 +5,7 @@
     --orange: #FF8A00;
     --red: #FF5F3D;
     --dark-grey: #393e46;
+    --black: #000000;
 }
 
 * {
@@ -95,4 +96,9 @@
 
 #scroll-to-top {
     background-color: var(--orange)!important;
+}
+
+/* MY ACCOUNT */
+.mycred-my-balance-wrapper {
+    color: var(--black);
 }
