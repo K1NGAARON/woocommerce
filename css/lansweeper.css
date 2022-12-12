@@ -114,6 +114,29 @@
 }
 
 /* SIZECHARTS */
+.woocommerce-tabs .woocommerce-Tabs-panel {
+    max-width: none;
+}
+
+.woocommerce-tabs .woocommerce-Tabs-panel p {
+    text-align: center!important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: unset;
+    margin-top: 40px;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+}
+
 .sizechart th {
     background-color: var(--black);
     color: var(--white);
