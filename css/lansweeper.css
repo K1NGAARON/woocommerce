@@ -102,3 +102,13 @@
 .mycred-my-balance-wrapper {
     color: var(--black);
 }
+
+.mycred-my-balance-wrapper div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.mycred-my-balance-wrapper div p {
+    font-weight: 700;
+}

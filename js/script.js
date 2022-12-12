@@ -21,8 +21,8 @@ function accountBalance(e) {
     console.log(balanceTarget);
     console.log(html);
 
-    balanceTarget.html(html);
-}
+    balanceTarget.prepend(html);
+};
 
 
 $(document).ready(function() {
