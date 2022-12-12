@@ -112,3 +112,11 @@
 .mycred-my-balance-wrapper div p {
     font-weight: 700;
 }
+
+/* SIZECHARTS */
+.sizechart th {
+    background-color: var(--black);
+    color: var(--white);
+    border-color: var(--black);
+    font-weight: 700;
+}
