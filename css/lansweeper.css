@@ -143,3 +143,7 @@
     border-color: var(--black);
     font-weight: 700;
 }
+
+#tab-title-additional_information {
+    display: none;
+}
