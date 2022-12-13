@@ -12,7 +12,8 @@
 
 /* HEADER */
 #masthead {
-    background-color: var(--black);
+    background-color: var(--wite);
+    padding: 10px 0;
 }
 
 #masthead .site-header-inner {
@@ -20,10 +21,15 @@
     border-bottom: none;
 }
 
+#masthead .custom-logo {
+    width: 100%;
+    max-width: 150px;
+}
+
 .primary-navigation li > a,
 .primary-navigation li.current-menu-item > a,
 .primary-navigation > li.current-menu-parent > a {
-    color: var(--white);
+    color: var(--red);
     font-weight: 700;
 }
 
@@ -31,7 +37,7 @@
 .site-tools .tools-icon .woostify-svg-icon,
 .woocommerce-mini-cart__total .amount,
 .primary-navigation a:hover {
-    color: var(--orange);
+    color: var(--red);
 }
 
 .shop-cart-count {
