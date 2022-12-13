@@ -98,6 +98,11 @@
     background-color: var(--orange)!important;
 }
 
+.woocommerce-info {
+    background-color: var(--red);
+}
+
+
 /* MY ACCOUNT */
 .mycred-my-balance-wrapper {
     color: var(--black);
