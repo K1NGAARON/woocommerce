@@ -102,6 +102,14 @@
     background-color: var(--red);
 }
 
+.woocommerce-notice.woocommerce-notice--info.woocommerce-info {
+    opacity: 0;
+}
+
+.woocommerce-notice.woocommerce-notice--info.woocommerce-info.active {
+    opacity: 1;
+}
+
 
 /* MY ACCOUNT */
 .mycred-my-balance-wrapper {

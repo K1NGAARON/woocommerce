@@ -7,6 +7,8 @@ function replaceErrorText(e) {
     } else {
         // Nothing
     }
+
+    errorMSG.classList.add('active');
 }
 
 function accountBalance(e) {
@@ -21,10 +23,10 @@ function accountBalance(e) {
 };
 
 $(document).ready(function() {
-    replaceErrorText();
+    // replaceErrorText();
     accountBalance();
 });
 
 setTimeout(function() {
-    // replaceErrorText();
+    replaceErrorText();
 }, 1000);
