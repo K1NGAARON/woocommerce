@@ -23,7 +23,6 @@ function accountBalance(e) {
 };
 
 $(document).ready(function() {
-    // replaceErrorText();
     accountBalance();
 });
 
