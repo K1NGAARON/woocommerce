@@ -32,10 +32,10 @@ function buildFAQ() {
         const template = `
             <div class="question">
                 <h5>
-                    ${content[i].question};
+                    ${content[i].question}
                 </h5>
                 <p>
-                    ${content[i].answer};
+                    ${content[i].answer}
                 </p>
             </div>
         `;
