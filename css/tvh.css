@@ -92,6 +92,10 @@
     display: none!important;
 }
 
+.woocommerce-tabs.wc-tabs-wrapper {
+    display: none;
+}
+
 /* CHECKOUT */
 .woocommerce-thankyou-order-received {
     border-color: var(--red);
