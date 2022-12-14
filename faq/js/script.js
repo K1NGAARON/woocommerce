@@ -29,7 +29,7 @@ const content = [
 function buildFAQ() {
     for (let i = 0; i < content.length; i++) {
         const template = `
-            <div class="question">
+            <div class="item">
                 <h5>
                     ${content[i].question};
                 </h5>
