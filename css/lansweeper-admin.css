@@ -1,0 +1,18 @@
+/* WORDPRESS DASHBOARD */
+#menu-posts,
+#menu-media,
+#menu-pages,
+#menu-comments,
+#menu-posts-custom-css-js,
+#toplevel_page_getwooplugins,
+#toplevel_page_wc-admin-path--analytics-overview,
+#toplevel_page_woocommerce-marketing,
+#toplevel_page_elementor,
+#menu-posts-elementor_library,
+#menu-appearance,
+#menu-plugins,
+#menu-tools,
+#menu-settings,
+#toplevel_page_mycred-main {
+    display: none;
+}
