@@ -150,6 +150,12 @@
     flex-direction: column;
 }
 
+.row .col img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+}
+
 .sizechart th {
     background-color: var(--black);
     color: var(--white);
