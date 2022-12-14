@@ -156,6 +156,10 @@
     border-color: var(--black);
     font-weight: 700;
 }
+.sizechart th,
+.sizechart td {
+    font-size: 12px;
+}
 
 #tab-title-additional_information {
     display: none;
