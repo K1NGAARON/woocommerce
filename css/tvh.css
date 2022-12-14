@@ -4,6 +4,7 @@
     --red: #E4002B;
     --white: #ffffff;
     --black: #000000;
+    --transition: all .25s ease-in-out
 }
 
 * {
