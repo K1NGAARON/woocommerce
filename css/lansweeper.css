@@ -110,6 +110,10 @@
     opacity: 1;
 }
 
+.custom-form {
+    width: 100%!important;
+}
+
 
 /* MY ACCOUNT */
 .mycred-my-balance-wrapper {
