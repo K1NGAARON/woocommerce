@@ -153,6 +153,10 @@
     margin-top: 40px;
 }
 
+.row.flex-col {
+    flex-direction: column;
+}
+
 .row .col {
     display: flex;
     flex-direction: column;
