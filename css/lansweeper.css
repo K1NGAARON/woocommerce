@@ -130,6 +130,10 @@
     font-weight: 700;
 }
 
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address {
+    display: none;
+}
+
 /* SIZECHARTS */
 .woocommerce-tabs .woocommerce-Tabs-panel {
     max-width: none;
