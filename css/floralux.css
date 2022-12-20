@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');                
+
+:root {
+    --primary: #e87800;
+    --secondary: #00655c;
+    --white: #ffffff;
+    --black: #000000;
+    --transition: all .25s ease-in-out
+}
+
+* {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+/* HEADER */
+#masthead {
+    background-color: var(--wite);
+    padding: 10px 0;
+}
+
+#masthead .site-header-inner {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+#masthead .custom-logo {
+    width: 100%;
+    max-width: 150px;
+}
+
+.primary-navigation li > a,
+.primary-navigation li.current-menu-item > a,
+.primary-navigation > li.current-menu-parent > a {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.site-tools .tools-icon:hover .woostify-svg-icon,
+.site-tools .tools-icon .woostify-svg-icon,
+.woocommerce-mini-cart__total .amount,
+.primary-navigation a:hover {
+    color: var(--red);
+}
+
+.shop-cart-count {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.cart-sidebar-head .shop-cart-count,
+.shop-cart-count {
+    background-color: var(--primary);
+}
+
+/* BUTTONS */
+.elementor-section .elementor-container .elementor-element .elementor-button,
+.button {
+    background-color: var(--primary);
+    font-weight: 600;   
+}
+
+.elementor-section .elementor-container .elementor-element .elementor-button:hover {
+    background-color: var(--primary);
+}
+
+.shop_table .woocommerce-Price-amount {
+    color: var(--primary)!important;
+}
+
+.single_add_to_cart_button.button:not(.woostify-buy-now),
+.button:hover, .single_add_to_cart_button.button:not(.woostify-buy-now):hover {
+    background-color: var(--primary);
+}
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item) {
+    box-shadow: none!important;
+    border: 1px solid var(--black);
+}
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected {
+    border: 2px solid var(--primary);
+}
+
+.woocommerce-tabs .woocommerce-Tabs-panel p:last-child {
+    text-align: center!important;
+}
+
+.single_variation,
+.reset_variations,
+.sku_wrapper,
+.woostify-single-product-stock.stock,
+.site-footer,
+.woocommerce-form-coupon-toggle {
+    display: none!important;
+}
+
+.woocommerce-tabs.wc-tabs-wrapper {
+    display: none;
+}
+
+/* CHECKOUT */
+.woocommerce-thankyou-order-received {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+#scroll-to-top {
+    background-color: var(--primary)!important;
+}
+
+.woocommerce-info {
+    background-color: var(--primary);
+}
+
+.woocommerce-notice.woocommerce-notice--info.woocommerce-info {
+    opacity: 0;
+}
+
+.woocommerce-notice.woocommerce-notice--info.woocommerce-info.active {
+    opacity: 1;
+}
