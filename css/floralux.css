@@ -89,8 +89,7 @@
 .reset_variations,
 .sku_wrapper,
 .woostify-single-product-stock.stock,
-.site-footer,
-.woocommerce-form-coupon-toggle {
+.site-footer {
     display: none!important;
 }
 
