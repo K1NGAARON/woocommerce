@@ -58,6 +58,12 @@
     font-weight: 600;   
 }
 
+.woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon [name="apply_coupon"],
+.button, [class*="elementor-kit"] .checkout-button {
+    background-color: var(--primary);
+}
+
+
 .elementor-section .elementor-container .elementor-element .elementor-button:hover {
     background-color: var(--primary);
 }
