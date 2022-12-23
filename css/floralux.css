@@ -118,3 +118,14 @@
 .woocommerce-notice.woocommerce-notice--info.woocommerce-info.active {
     opacity: 1;
 }
+
+.woocommerce-billing-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
