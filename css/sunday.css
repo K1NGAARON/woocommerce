@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 
 :root {
-    --primary: #702dbd;
+    --red: #E4002B;
     --white: #ffffff;
     --black: #000000;
     --transition: all .25s ease-in-out
 }
 
 * {
-    font-family: Poppins;
+    font-family: Noto Sans;
 }
 
 /* HEADER */
@@ -30,7 +30,7 @@
 .primary-navigation li > a,
 .primary-navigation li.current-menu-item > a,
 .primary-navigation > li.current-menu-parent > a {
-    color: var(--primary);
+    color: var(--red);
     font-weight: 700;
 }
 
@@ -38,43 +38,37 @@
 .site-tools .tools-icon .woostify-svg-icon,
 .woocommerce-mini-cart__total .amount,
 .primary-navigation a:hover {
-    color: var(--primary);
+    color: var(--red);
 }
 
 .shop-cart-count {
-    background-color: var(--primary);
+    background-color: var(--red);
     color: var(--white);
 }
 
 .cart-sidebar-head .shop-cart-count,
 .shop-cart-count {
-    background-color: var(--primary);
+    background-color: var(--red);
 }
 
 /* BUTTONS */
 .elementor-section .elementor-container .elementor-element .elementor-button,
 .button {
-    background-color: var(--primary);
+    background-color: var(--red);
     font-weight: 600;   
 }
 
-.woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon [name="apply_coupon"],
-.button, [class*="elementor-kit"] .checkout-button {
-    background-color: var(--primary);
-}
-
-
 .elementor-section .elementor-container .elementor-element .elementor-button:hover {
-    background-color: var(--primary);
+    background-color: var(--red);
 }
 
 .shop_table .woocommerce-Price-amount {
-    color: var(--primary)!important;
+    color: var(--red)!important;
 }
 
 .single_add_to_cart_button.button:not(.woostify-buy-now),
 .button:hover, .single_add_to_cart_button.button:not(.woostify-buy-now):hover {
-    background-color: var(--primary);
+    background-color: var(--red);
 }
 
 .woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item) {
@@ -83,7 +77,7 @@
 }
 
 .woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected {
-    border: 2px solid var(--primary);
+    border: 2px solid var(--red);
 }
 
 .woocommerce-tabs .woocommerce-Tabs-panel p:last-child {
@@ -103,18 +97,32 @@
     display: none;
 }
 
+
+/* FONTS */
+h1,
+h2,
+h3 {
+    font-family: Codec Pro;
+}
+
+a,
+li,
+p {
+    font-family: Noto Sans;
+}
+
 /* CHECKOUT */
 .woocommerce-thankyou-order-received {
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: var(--red);
+    color: var(--red);
 }
 
 #scroll-to-top {
-    background-color: var(--primary)!important;
+    background-color: var(--red)!important;
 }
 
 .woocommerce-info {
-    background-color: var(--primary);
+    background-color: var(--red);
 }
 
 .woocommerce-notice.woocommerce-notice--info.woocommerce-info {
@@ -139,11 +147,6 @@
 
 .mycred-my-balance-wrapper div p {
     font-weight: 700;
-}
-
-.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address,
-.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
-    display: none;
 }
 
 /* SIZECHARTS */
@@ -179,29 +182,4 @@
 
 #tab-title-additional_information {
     display: none;
-}
-
-/* FAQ */
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.wrapper .item {
-    flex: 1 0;
-
-    display: flex;
-    flex-direction: column;
-    font-family: Poppins!important;
-}
-
-.wrapper .item h5 {
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.wrapper .item p {
-    font-weight: 400;
-    font-size: 14px;
 }
