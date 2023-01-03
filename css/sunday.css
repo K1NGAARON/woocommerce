@@ -141,7 +141,8 @@
     font-weight: 700;
 }
 
-.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address {
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address,
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
     display: none;
 }
 
