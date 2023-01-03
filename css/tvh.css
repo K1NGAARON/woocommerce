@@ -8,7 +8,7 @@
 }
 
 * {
-    font-family: Poppins;
+    font-family: Noto Sans;
 }
 
 /* HEADER */
@@ -97,6 +97,20 @@
     display: none;
 }
 
+
+/* FONTS */
+h1,
+h2,
+h3 {
+    font-family: Codec Pro;
+}
+
+a,
+li,
+p {
+    font-family: Noto Sans;
+}
+
 /* CHECKOUT */
 .woocommerce-thankyou-order-received {
     border-color: var(--red);
@@ -168,29 +182,4 @@
 
 #tab-title-additional_information {
     display: none;
-}
-
-/* FAQ */
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.wrapper .item {
-    flex: 1 0;
-
-    display: flex;
-    flex-direction: column;
-    font-family: Poppins!important;
-}
-
-.wrapper .item h5 {
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.wrapper .item p {
-    font-weight: 400;
-    font-size: 14px;
 }

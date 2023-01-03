@@ -8,7 +8,7 @@
 }
 
 * {
-    font-family: Noto Sans;
+    font-family: Poppins;
 }
 
 /* HEADER */
@@ -95,20 +95,6 @@
 
 .woocommerce-tabs.wc-tabs-wrapper {
     display: none;
-}
-
-
-/* FONTS */
-h1,
-h2,
-h3 {
-    font-family: Codec Pro;
-}
-
-a,
-li,
-p {
-    font-family: Noto Sans;
 }
 
 /* CHECKOUT */
