@@ -140,6 +140,10 @@ p {
     opacity: 1;
 }
 
+.site-tools .tools-icon.header-search-icon {
+    display: none;
+}
+
 
 /* MY ACCOUNT */
 .mycred-my-balance-wrapper {
