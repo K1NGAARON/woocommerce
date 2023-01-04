@@ -51,7 +51,16 @@
 
 /* BUTTONS */
 .elementor-section .elementor-container .elementor-element .elementor-button,
-.button {
+.button, 
+.woocommerce-widget-layered-nav-dropdown__submit, 
+.form-submit .submit, 
+.elementor-button-wrapper .elementor-button, 
+.has-woostify-contact-form input[type="submit"], 
+#secondary .widget a.button, 
+.product-loop-meta.no-transform .button, 
+.product-loop-meta.no-transform .added_to_cart, 
+[class*="elementor-kit"] .checkout-button,
+.woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon [name="apply_coupon"] {
     background-color: var(--red);
     font-weight: 600;   
 }
@@ -145,6 +154,11 @@ p {
 
 .mycred-my-balance-wrapper div p {
     font-weight: 700;
+}
+
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads,
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address {
+    display: none;
 }
 
 /* SIZECHARTS */

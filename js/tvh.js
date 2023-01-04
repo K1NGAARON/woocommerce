@@ -70,6 +70,20 @@ function accountBalance(e) {
     balanceTarget.prepend(html);
 };
 
+// Add ETA to thank you page
+function deliveryDate(e) {
+    const deliveryTarget = document.querySelector('.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received');
+
+    const html = `
+        <p>
+            Estimated delivery date: xx/xx/xxxx
+        </p>
+    `;
+
+    deliveryTarget.insertAdjacentHTML("beforeend", html);
+};
+
+
 $(document).ready(function() {
     if (target) {
         buildFAQ();
@@ -78,6 +92,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     accountBalance();
+    deliveryDate();
 });
 
 setTimeout(function() {
