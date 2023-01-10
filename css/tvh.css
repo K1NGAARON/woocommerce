@@ -222,3 +222,10 @@ p {
 #secondary {
     display: none;
 }
+
+.cart-sidebar-content .woocommerce-mini-cart__buttons a.checkout,
+.woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon [name="apply_coupon"],
+[class*="elementor-kit"] .checkout-button,
+.woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon + [name="update_cart"] {
+    border-radius: 9px;
+}
