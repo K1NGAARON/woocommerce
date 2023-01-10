@@ -84,6 +84,19 @@ function deliveryDate(e) {
 };
 
 
+function replaceErrorText(e) {
+    const errorMSG = document.querySelector('.woocommerce-notice.woocommerce-notice--info.woocommerce-info');
+
+    if (errorMSG) {
+        errorMSG.innerText = "Oops, it seems you don't have enough coins to complete this purchase.";
+        
+    } else {
+        // Nothing
+    }
+
+    errorMSG.classList.add('active');
+}
+
 $(document).ready(function() {
     if (target) {
         buildFAQ();
