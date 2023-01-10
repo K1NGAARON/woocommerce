@@ -160,8 +160,23 @@ p {
     font-weight: 700;
 }
 
+.woocommerce-MyAccount-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.woocommerce-account .u-column2 {
+    width: 100%;
+    max-width: none;
+}
+
+.woocommerce-Address .woocommerce-Address-title h3 {
+    text-transform: uppercase;
+}
+
 .woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads,
-.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address {
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address,
+.u-column1.col-1.woocommerce-Address {
     display: none;
 }
 
@@ -197,5 +212,13 @@ p {
 }
 
 #tab-title-additional_information {
+    display: none;
+}
+
+.has-sidebar:not(.offcanvas-sidebar) #primary {
+    width: 100%;
+}
+
+#secondary {
     display: none;
 }

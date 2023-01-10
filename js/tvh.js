@@ -66,7 +66,7 @@ function deliveryDate(e) {
 
     const html = `
         <p>
-            Estimated delivery date: xx/xx/xxxx
+            Estimated shipping date: 13/04/2023
         </p>
     `;
 
