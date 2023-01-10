@@ -68,6 +68,9 @@ function accountBalance(e) {
     `;
 
     balanceTarget.prepend(html);
+
+    // let newBalance = document.querySelector('.mycred-my-balance-wrapper div').innerText;
+    // console.log(newBalance);
 };
 
 // Add ETA to thank you page
