@@ -3,7 +3,11 @@ const target = document.querySelector('.wrapper');
 const content = [
     {
         question: 'How to use the credits / How to place an order?',
-        answer: 'Select the item you want to have, (choose your size), change your desired quantity and click “add to cart”. Go to checkout, fill in the required information. On the right you will see the total value of your order and your available balance. If you have enough, you can place your order. If you don’t have enough balance, this will be shown.',
+        answer: "Select the item you want to have, (choose your size), change your desired quantity and click “add to cart”. Go to checkout, fill in the required information. On the right you will see the total value of your order and your available balance. If you have enough, you can place your order. If you don't have enough balance, this will be shown.",
+    },
+    {
+      question: 'What is the value of the credits?',
+      answer: "Every employee gets 1085 yearly credits to purchase the products that they desire. It is not possible to purchase anymore products if you run out of credits. "
     },
     {
         question: 'Forgot my password?',
@@ -44,20 +48,6 @@ function buildFAQ() {
 };
 
 
-// CHECKOUT SCRIPT
-function replaceErrorText(e) {
-    const errorMSG = document.querySelector('.woocommerce-notice.woocommerce-notice--info.woocommerce-info');
-
-    if (errorMSG) {
-        errorMSG.innerText = 'TO BE ADDED';
-        
-    } else {
-        // Nothing
-    }
-
-    errorMSG.classList.add('active');
-}
-
 // ACCOUNT BALANCE SCRIPT
 function accountBalance(e) {
     const balanceTarget = $('.mycred-my-balance-wrapper div');
@@ -68,9 +58,6 @@ function accountBalance(e) {
     `;
 
     balanceTarget.prepend(html);
-
-    // let newBalance = document.querySelector('.mycred-my-balance-wrapper div').innerText;
-    // console.log(newBalance);
 };
 
 // Add ETA to thank you page
