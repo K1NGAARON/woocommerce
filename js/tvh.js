@@ -2,6 +2,14 @@
 const target = document.querySelector('.wrapper');
 const content = [
     {
+        question: "Who to contact in case of questions, returns, faulty items, sizing, cancellations, logistical, shop related questions?",
+        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+    },
+    {
+        question: "Forgot my password?",
+        answer: "Click on “Lost your password?” on the login page. Enter your work e-mail address and you will receive an e-mail to reset your password."
+    },
+    {
         question: "How to use the credits / How to place an order?",
         answer: "Select the item you want, (select your size), change your desired quantity and click “add to cart”. Go to checkout and fill in the required information. On the right, you will see the total value of your order and your available balance. If this balance is sufficient, you can place your order. If your balance is insufficient, this will be indicated. See a demo here."
     },
@@ -10,16 +18,12 @@ const content = [
         answer: "Every employee receives 1085 yearly credits to purchase the products that they want. It isn’t possible to purchase more items if you use up your credits."
     },
     {
-        question: "Forgot my password?",
-        answer: "Click on “Lost your password?” on the login page. Enter your work e-mail address and you will receive an e-mail to reset your password."
-    },
-    {
         question: "Do I have to spend all of my credits in one go?",
         answer: "You don’t have to use up all your credits at once. You can place several orders, as long as you have credits, or you can use your credits in one go."
     },
     {
         question: "Where can I check how many credits I (still) have?",
-        question: "Credits are visible in your dashboard under “Balance”. They are also visible during checkout, just below the total value of your order."
+        answer: "Credits are visible in your dashboard under “Balance”. They are also visible during checkout, just below the total value of your order."
     },
     {
         question: "Do the credits have an expiry date?",
@@ -27,7 +31,7 @@ const content = [
     },
     {
         question: "When will I receive new credits?",
-        question: "The granted credits should offer you 2 years of joy in TVH-branded clothing. (credits are calculated on a standard package of 5 shirts, 5 polo shirts and 3 types of  jacket)"
+        answer: "The granted credits should offer you 2 years of joy in TVH-branded clothing. (credits are calculated on a standard package of 5 shirts, 5 polo shirts and 3 types of  jacket)"
     },
     {
         question: "Is there a purchase limit?",
@@ -41,10 +45,10 @@ const content = [
         question: "How does the sizing work?",
         answer: "Given you had a fitting with Sunday at HQ in Waregem, your size has been saved on record, so you won’t need to choose the size when placing your first order."
     },
-    {
-        question: "How to change the sizing linked to the account?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
-    },
+    // {
+    //     question: "How to change the sizing linked to the account?",
+    //     answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+    // },
     {
         question: "When are we expected to wear the branded clothing?",
         answer: "It is recommended that TVH sales people wear the TVH-branded clothing during every physical customer contact."
@@ -57,22 +61,22 @@ const content = [
         question: "Who can wear the branded clothes?",
         answer: "Never hand the clothes to customers or others, the clothes identify you as a representative of TVH. Don’t lend or pass them on to others."
     },
-    {
-        question: "Can I cancel or change an online order?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
-    },
-    {
-        question: "How can I return an order?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
-    },
-    {
-        question: "Who takes care of the returns?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
-    },
-    {
-        question: "What to do in case of an incorrect or faulty item?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
-    },
+    // {
+    //     question: "Can I cancel or change an online order?",
+    //     answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+    // },
+    // {
+    //     question: "How can I return an order?",
+    //     answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+    // },
+    // {
+    //     question: "Who takes care of the returns?",
+    //     answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+    // },
+    // {
+    //     question: "What to do in case of an incorrect or faulty item?",
+    //     answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+    // },
     {
         question: "Where to ship my order to?",
         answer: "When creating your account please enter the delivery address. This can either be the address of the affiliate (if one is available in your country) or an address of your choice. If choosing an address that is not an affiliate, please make sure someone is available to receive the package."
@@ -86,12 +90,8 @@ const content = [
         answer: "If your items are being shipped to the office, you can’t track them. If your items come as an individual shipment and will be shipped to your home address, you will receive an e-mail with the tracking number."
     },
     {
-        question: "What is the expected delivery time?",
-        answer: "Once your parcel has been shipped we will send you a mail."
-    },
-    {
-        question: "Who to contact in case of questions?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+        question: "What is the expected shipping date?",
+        answer: "Mid-april"
     }
 ];
 
@@ -107,7 +107,7 @@ function buildFAQ() {
                 </p>
             </div>
         `;
-        target.insertAdjacentHTML("afterbegin", template);
+        target.insertAdjacentHTML("beforeend", template);
     };
 };
 
