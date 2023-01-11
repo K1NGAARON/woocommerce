@@ -11,7 +11,7 @@ const content = [
     },
     {
         question: "How to use the credits / How to place an order?",
-        answer: "Select the item you want, (select your size), change your desired quantity and click “add to cart”. Go to checkout and fill in the required information. On the right, you will see the total value of your order and your available balance. If this balance is sufficient, you can place your order. If your balance is insufficient, this will be indicated. See a demo here."
+        answer: "Select the item you want, (you don't need to select your size as we already have them), change your desired quantity and click “add to cart”. Go to checkout and fill in the required information. On the right, you will see the total value of your order and your available balance. If this balance is sufficient, you can place your order. If your balance is insufficient, this will be indicated."
     },
     {
         question: "What is the value of the credits?",
