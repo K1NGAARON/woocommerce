@@ -15,7 +15,7 @@ const content = [
     },
     {
         question: "What is the value of the credits?",
-        answer: "Every employee receives 1085 yearly credits to purchase the products that they want. It isn’t possible to purchase more items if you use up your credits."
+        answer: "Every employee receives 1085 credits to purchase the products that they want. It isn’t possible to purchase more items if you use up your credits."
     },
     {
         question: "Do I have to spend all of my credits in one go?",
