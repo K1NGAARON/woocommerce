@@ -3,7 +3,7 @@ const target = document.querySelector('.wrapper');
 const content = [
     {
         question: "Who to contact in case of questions, returns, faulty items, sizing, cancellations, logistical, shop related questions?",
-        answer: "Please contact the Sunday customer service team by sending a mail to shop.wardrobe@teamsunday.com"
+        answer: "Please contact the Sunday customer service team by sending a mail to shop-support@wardrobe.teamsunday.com"
     },
     {
         question: "Forgot my password?",
