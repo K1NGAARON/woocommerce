@@ -234,3 +234,20 @@ p {
 .woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon + [name="update_cart"] {
     border-radius: 9px;
 }
+ 
+.woocommerce-form-coupon-toggle {
+    background-color: #3F84C5;
+    padding: 10px 20px;
+    color: var(--white);
+    border-radius: 9px;
+}
+
+.woocommerce-form-coupon-toggle .showcoupon {
+    color: var(--white)!important;
+    transition: var(--transition);
+}
+
+.woocommerce-form-coupon-toggle .showcoupon:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
