@@ -251,3 +251,9 @@ p {
     text-decoration: underline;
     transition: var(--transition);
 }
+
+.video {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
