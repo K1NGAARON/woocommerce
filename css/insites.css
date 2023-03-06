@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-    --primary: #002D74;
+    --primary: #004750;
+    --secondary: #7AE159;
     --white: #ffffff;
     --black: #000000;
     --transition: all .25s ease-in-out
@@ -67,21 +68,21 @@
 .product-loop-meta.no-transform .added_to_cart, 
 [class*="elementor-kit"] .checkout-button,
 .woocommerce-cart-form__contents:not(.elementor-menu-cart__products) .actions .coupon [name="apply_coupon"] {
-    background-color: var(--primary);
+    background-color: var(--secondary);
     font-weight: 600;   
 }
 
 .elementor-section .elementor-container .elementor-element .elementor-button:hover {
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
 .shop_table .woocommerce-Price-amount {
-    color: var(--primary)!important;
+    color: var(--secondary)!important;
 }
 
 .single_add_to_cart_button.button:not(.woostify-buy-now),
 .button:hover, .single_add_to_cart_button.button:not(.woostify-buy-now):hover {
-    background-color: var(--primary);
+    background-color: var(--secondary);
 }
 
 .woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item) {
@@ -90,7 +91,7 @@
 }
 
 .woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected {
-    border: 2px solid var(--primary);
+    border: 2px solid var(--secondary);
 }
 
 .woocommerce-tabs .woocommerce-Tabs-panel p:last-child {
