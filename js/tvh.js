@@ -130,7 +130,7 @@ function deliveryDate(e) {
 
     const html = `
         <p>
-            Estimated shipping date: 13/04/2023
+            We’ll reach out shortly with more information on the delivery timeline & logistics.
         </p>
     `;
 
